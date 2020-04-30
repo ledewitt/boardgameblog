@@ -1,0 +1,41 @@
+websites:
+  - title: Hobby Sites
+    subfolderitems:
+      - page: Board Game Geek
+        url: https://boardgamegeek.com
+      - page: Board Game Atlas
+        url: https://www.boardgameatlas.com/
+  - title: Reviewers
+    subfolderitems:
+      - page: Shut Up & Sit Down
+        url: https://www.shutupandsitdown.com/
+      - page: The Dice Tower
+        url: https://www.dicetower.com/
+      - page: Man vs Meeple
+        url: https://www.manvsmeeple.com/
+      - page: No Pun Included
+        url: https://www.nopunincluded.com/
+  - title: YouTube Channels
+    subfolderitems:
+      - page: Shut Up & Sit Down
+        url: https://www.youtube.com/channel/UCyRhIGDUKdIOw07Pd8pHxCw
+      - page: The Dice Tower
+        url: https://www.youtube.com/channel/UCiwBbXQlljGjKtKhcdMliRA
+      - page: Man vs Meeple
+        url: https://www.youtube.com/channel/UCTU7xJi9dBQIcBeUFLpWGUA
+      - page: No Pun Included
+        url: https://www.youtube.com/channel/UCtU-oQXFKUMFvhunPrx7U-w
+  - title: Friendly Local Stores
+    subfolderitems:
+      - page: Mythic Games
+        url: http://www.mythicgamescolorado.com/
+      - page: Enchanted Grounds
+        url: http://www.enchantedgrounds.com/
+      - page: Collector Mania
+        url: https://www.collectormaniaparker.com/
+  - title: Web Stores
+    subfolderitems:
+      - page: Cool Stuff Inc
+        url: http://www.coolstuffinc.com
+      - page: Miniature Market
+        url: https://www.miniaturemarket.com/

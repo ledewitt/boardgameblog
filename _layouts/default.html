@@ -10,15 +10,16 @@
     <div class="main-layout">
 
     <div class="sidebar">
-      <ul><a href="https://boardgamegeek.com" target="_blank">BGG</a></ul>
-      <ul><a href="https://fantasyflightgames.com" target="_blank">FFG</a></ul>
-      <ul><a href="https://dicetower.com" target="_blank">Dice Tower</a></ul>
-      <ul>Stores</ul>
-      <ul>Cool Stuff Inc</ul>
-      <ul>Meeple Realty</ul>
-      <ul>Broken Token</ul>
-      <ul>You Tube Channels</ul>
-      <ul>No Pun Included</ul>
+      
+      {% for item in site.data.sidebar.websites %}
+        <h3>{{ item.title }}</h3>
+          <ul>
+            {% for entry in item.subfolderitems %}
+             <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+        {% endfor %}
+        </ul>
+      {% endfor %}
+
     </div>
 
     <main class="page-content" aria-label="Content">
